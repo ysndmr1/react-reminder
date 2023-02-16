@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  gap: 2rem;
+  background-color: #f2e470;
+  background-image: linear-gradient(90deg, #f2e470 0%, #83e6b0 100%);
+}
+
+img {
+  width: 4rem;
+  margin-left: 2rem;
+}

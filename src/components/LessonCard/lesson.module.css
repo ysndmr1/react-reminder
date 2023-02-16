@@ -1,0 +1,29 @@
+p {
+  color: orange;
+  font-weight: 700;
+}
+
+span {
+  color: black;
+  font-weight: 500;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex: 30%;
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    flex: 45%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+    flex: 80%;
+    flex-direction: column;
+  }
+}
